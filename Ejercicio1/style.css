@@ -1,0 +1,13 @@
+
+body {
+    overflow: hidden;
+}
+
+#corral {
+    display:flex;
+}
+
+.pollitos {
+    width: 100px;
+    height: 100px;
+}
