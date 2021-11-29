@@ -7,7 +7,7 @@ body {
     color:white;
     background: url("img/ruinas.jpg") no-repeat;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -23,18 +23,34 @@ h2 {
     width:fit-content
 }
 
+#salirDerrumbe {
+    z-index:9;
+}
+
 #derrumbe, #derrumbeFondo {
-    /* display:none; */
+    position:absolute;
+    bottom:1000px;
 }
 
 #derrumbe {
-  position:absolute;
-  top:0;
-  z-index: 2;
+    opacity:0;
+    z-index: 2;
 }
 
 #derrumbeFondo {
-    position:absolute;
-    top:0;
     z-index:1;
+}
+
+#salirCueva {
+    color:white;
+    background-color:black;
+    left:40%;
+    width: fit-content;
+    font-size: 3em;
+    position:absolute;
+    z-index:999;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

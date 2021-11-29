@@ -1,6 +1,25 @@
 
 body {
     overflow: hidden;
+    text-align: center;
+}
+
+img:first-child {
+    margin-left: 37%;
+}
+
+
+p {
+    font-size:2em;
+}
+
+a {
+    font-size: 2em;
+}
+
+input {
+    background-color:powderblue;
+    font-size:1.5em;
 }
 
 #corral {
